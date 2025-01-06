@@ -7,6 +7,8 @@ import "datatables.net-buttons/js/buttons.html5";
 import jszip from "jszip";
 import pdfmake from "pdfmake";
 
+//https://datatables.net/blog/2020/highcharts-integration
+
 DataTable.use(DT);
 DT.Buttons.jszip(jszip);
 DT.Buttons.pdfMake(pdfmake);
